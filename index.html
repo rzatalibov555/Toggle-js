@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- https://www.youtube.com/watch?v=RBB2N341tr0&t=13s&ab_channel=1BestCsharpblog -->
+
+    <!-- <button id="chat_button" onclick=funct()>
+        <i onclick="myFunction(this)" class="fa fa-comments"></i>
+    </button> -->
+    
+    <button id="chat_button" onclick=send()>
+        <i onclick="myFunction(this)" class="fa fa-comments"></i>
+    </button>
+   
+    <!-- <button id="chat_button">
+        <i onclick="myFunction(this)" class="fa fa-comments"></i>
+    </button> -->
+
+    
+    <!-- <div id="chat_button" >
+        <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
+    </div> -->
+
+    <div id="chat_message">
+        <div class="closes close_button">
+            <i class="fa fa-times" style="font-size: 20px;" aria-hidden="true"></i>
+        </div>
+
+        <div class="message">
+
+        </div>
+
+        <div class="inputSide">
+            <form action="#" method="">
+                <input name="" id="message" type="text" class="form-control">
+                <button type="submit" class="btn btn-success" onclick="send()">
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="js/main.js"></script>
